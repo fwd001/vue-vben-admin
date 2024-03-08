@@ -30,6 +30,7 @@
           colorWarning: '#EFBD47',
           colorError: '#ED6F6F',
           colorInfo: '#0960bd',
+          borderRadius: 2,
         },
       },
       isDark.value ? darkTheme : {},
