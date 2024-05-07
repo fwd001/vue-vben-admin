@@ -39,7 +39,8 @@
     "reinstall": "rimraf pnpm-lock.yaml && rimraf package.lock.json && rimraf node_modules && npm run bootstrap",
     "serve": "npm run dev",
     "test:gzip": "npx http-server dist --cors --gzip -c-1",
-    "type:check": "vue-tsc --noEmit --skipLibCheck"
+    "type:check": "vue-tsc --noEmit --skipLibCheck",
+    "upload": "rm -f dist.tar && tar -cvf dist.tar ./dist && scp ./dist.tar root@172.16.11.13:/root/project/vben-admin-fe && rm -f dist.tar"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
