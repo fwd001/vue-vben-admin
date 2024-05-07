@@ -1,3 +1,32 @@
+## [2.11.4](https://github.com/vbenjs/vue-vben-admin/compare/v2.11.3...v2.11.4) (2024-05-06)
+
+### Bug Fixes
+
+- **BasicForm:** 修复 SetFieldsValue 设置值时，会将 Number 类型的值转为 string ([#3802](https://github.com/vbenjs/vue-vben-admin/issues/3802)) ([08a1f7b](https://github.com/vbenjs/vue-vben-admin/commit/08a1f7b682114bdf758ea9dcd4b84daea0d5f196))
+- **breadcrumb:** if hideChildrenInmenu is true & hidden dropdown-menu ([#3807](https://github.com/vbenjs/vue-vben-admin/issues/3807)) ([2af93c9](https://github.com/vbenjs/vue-vben-admin/commit/2af93c9f5307ffdbb29653303177b2c8631e789a))
+- **docker:** update node version of dockerfile ([#3788](https://github.com/vbenjs/vue-vben-admin/issues/3788)) ([338d077](https://github.com/vbenjs/vue-vben-admin/commit/338d077ab3669ef116e7406c586fe2cb59952022))
+- **imgupload:** resultField causing with error display && setField uncertain ([#3798](https://github.com/vbenjs/vue-vben-admin/issues/3798)) ([06018ad](https://github.com/vbenjs/vue-vben-admin/commit/06018add798a6c23ebbfa91a3f4d625c2a57e458))
+
+### Features
+
+- **upload->previewColumns:** Adapt functions && chore upload demo ([#3799](https://github.com/vbenjs/vue-vben-admin/issues/3799)) ([29ef0d3](https://github.com/vbenjs/vue-vben-admin/commit/29ef0d39157957146015e1b914c26d2b6d1bf25e))
+
+### Performance Improvements
+
+- **util:** remove handleInputNumberValue ([#3806](https://github.com/vbenjs/vue-vben-admin/issues/3806)) ([ba5b8f8](https://github.com/vbenjs/vue-vben-admin/commit/ba5b8f8506bb9d052ce2705653f255f0401963e8))
+
+## [2.11.3](https://github.com/vbenjs/vue-vben-admin/compare/v2.11.2...v2.11.3) (2024-04-24)
+
+### Bug Fixes
+
+- **deps:** lock vue version to 3.4.23 ([#3785](https://github.com/vbenjs/vue-vben-admin/issues/3785)) ([2f655c2](https://github.com/vbenjs/vue-vben-admin/commit/2f655c2127753c0cde1cb29834314e961ce0930e)), closes [#3783](https://github.com/vbenjs/vue-vben-admin/issues/3783)
+- **upload:** disabled prop not effect to upload in the form ([#3780](https://github.com/vbenjs/vue-vben-admin/issues/3780)) ([69a6e90](https://github.com/vbenjs/vue-vben-admin/commit/69a6e9023ef80a5504178d0887119f8e7bbd5113))
+
+### Features
+
+- **BasicForm->Components:** add beforeFetch & afterFetch to apicomp && perf the code ([#3786](https://github.com/vbenjs/vue-vben-admin/issues/3786)) ([7ae2ec0](https://github.com/vbenjs/vue-vben-admin/commit/7ae2ec03a773c2223feabbd1e341e90f012f8b7e))
+- **demo:** use Tour component replace dirverjs ([#3777](https://github.com/vbenjs/vue-vben-admin/issues/3777)) ([49c4dc6](https://github.com/vbenjs/vue-vben-admin/commit/49c4dc646a9d123527577f02ee0d92865da9988e))
+
 ## [2.11.2](https://github.com/vbenjs/vue-vben-admin/compare/v2.11.1...v2.11.2) (2024-04-23)
 
 ### Bug Fixes

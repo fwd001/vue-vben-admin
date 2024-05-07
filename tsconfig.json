@@ -7,8 +7,8 @@
     "types": ["vite/client"],
     "paths": {
       "@/*": ["src/*"],
-      "#/*": ["types/*"],
-    },
+      "#/*": ["types/*"]
+    }
   },
   "include": [
     "tests/**/*.ts",
@@ -21,7 +21,7 @@
     "build/**/*.ts",
     "build/**/*.d.ts",
     "mock/**/*.ts",
-    "vite.config.ts",
+    "vite.config.ts"
   ],
-  "exclude": ["node_modules", "tests/server/**/*.ts", "dist", "**/*.js"],
+  "exclude": ["node_modules", "tests/server/**/*.ts", "dist", "**/*.js"]
 }

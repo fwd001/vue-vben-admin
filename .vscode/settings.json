@@ -1,5 +1,7 @@
 {
   "typescript.tsdk": "./node_modules/typescript/lib",
+  "volar.tsPlugin": true,
+  "volar.tsPluginStatus": false,
   "npm.packageManager": "pnpm",
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -170,5 +172,5 @@
   "terminal.integrated.scrollback": 10000,
   "nuxt.isNuxtApp": false,
   "vscodeCustomCodeColor.highlightValue": "v-auth",
-  "vscodeCustomCodeColor.highlightValueColor": "#6366f1",
+  "vscodeCustomCodeColor.highlightValueColor": "#6366f1"
 }
