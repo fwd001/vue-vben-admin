@@ -7223,9 +7223,6 @@ packages:
   xe-utils@3.5.28:
     resolution: {integrity: sha512-oeLLJ0b54QdOSSgYQ9TiKW/xAGrc9r0weCA/5UfyGdm3n3js4cNOuuf9Tml7UwgBQpl4uWMbMwUZKLh2yqPF3A==}
 
-  xe-utils@3.5.27:
-    resolution: {integrity: sha512-qn303MEL90Fn+1BGAfwmz+ot/3klNc9OgX3HBO5TPKHLLl+/zhfH+zrCOi7QIhvzaRiv63SSUhQE4Z1lTwmAuw==}
-
   xlsx@0.18.5:
     resolution: {integrity: sha512-dmg3LCjBPHZnQp5/F/+nnTa+miPJxUXB6vtk42YjBBKayDNagxGEeIdWApkYPOf3Z3pm3k62Knjzp7lMeTEtFQ==}
     engines: {node: '>=0.8'}
@@ -15163,8 +15160,6 @@ snapshots:
   ws@8.16.0: {}
 
   xe-utils@3.5.28: {}
-
-  xe-utils@3.5.27: {}
 
   xlsx@0.18.5:
     dependencies:
